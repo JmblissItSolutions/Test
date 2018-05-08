@@ -1,0 +1,49 @@
+/*
+* CSS Public Front end
+*/
+
+.product_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.product_item {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.product_item a {
+    border: 1px solid #ccc;
+    display: block;
+    box-shadow: 0px 0px 3px #ccc;
+    text-decoration: none !important;
+}
+.bg-colr-box {
+    /* padding: 20px; */
+    height: 150px;
+    display: table;
+    width: 100%;
+}
+.prod_img {
+    display: table-cell;
+    vertical-align: middle;
+}
+.prod_title {
+    background: #fff;
+    padding: 20px;
+}
+.prod_title h5 {
+    color: #847874;
+    text-decoration: none;
+    margin-bottom: 0px !important;
+}
+
+/* Mobile (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 180px) and (max-device-width : 767px) {
+.product_item {
+    width: 100%;
+    float: none;
+}
+
+}
